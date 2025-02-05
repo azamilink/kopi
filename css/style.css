@@ -146,7 +146,7 @@ body {
     background-color: #fff;
     color: var(--bg);
     transition: 0.3s linear;
-    overflow-y: scroll;
+    overflow: scroll;
 }
 
 .shopping-cart.active {
@@ -279,11 +279,11 @@ body {
 
 .hero .content {
     padding: 1.4rem 7%;
-    /* max-width: 60rem; */
-    width: 100%;
-    text-align: center;
+    max-width: 60rem;
+    /* width: 100%; */
+    /* text-align: center; */
     position: fixed;
-    top: 60px;
+    top: 150px;
 }
 
 .hero .content h1 {
