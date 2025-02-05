@@ -18,7 +18,6 @@
 
         <!-- Alpine -->
         <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-        <script src="src/app.js"></script>
     </head>
     <body>
         <!-- Navbart Start -->
@@ -180,7 +179,7 @@
                                     <use href="img/feather-sprite.svg#shopping-cart" />
                                 </svg>
                             </a>
-                            <a href="#" class="item-detail-btn">
+                            <a href="#" class="item-detail-btn" @click.prevent="detail()">
                                 <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <use href="img/feather-sprite.svg#eye" />
                                 </svg>
@@ -295,5 +294,6 @@
 
         <!-- My Script -->
         <script src="js/script.js"></script>
+        <script src="src/app.js"></script>
     </body>
 </html>

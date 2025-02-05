@@ -76,3 +76,9 @@ const rupiah = (number) => {
         minimumFractionDigits: 0,
     }).format(number);
 };
+
+// tampilan modal box
+function detail() {
+    const itemDetailModal = document.querySelector('#item-detail-modal');
+    itemDetailModal.style.display = 'flex';
+}
